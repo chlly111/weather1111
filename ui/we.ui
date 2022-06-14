@@ -6,31 +6,34 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>554</width>
-    <height>517</height>
+    <width>371</width>
+    <height>427</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(85, 0, 127);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>10</x>
       <y>20</y>
-      <width>121</width>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>          지역입력:</string>
+     <string>지역입력:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="line">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>80</x>
       <y>30</y>
       <width>181</width>
       <height>31</height>
@@ -40,7 +43,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>270</x>
       <y>30</y>
       <width>91</width>
       <height>31</height>
@@ -53,131 +56,235 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>90</y>
-      <width>111</width>
+      <x>40</x>
+      <y>70</y>
+      <width>301</width>
       <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(3, 190, 34);</string>
+    </property>
     <property name="text">
-     <string>    지역 주소</string>
+     <string>지역 주소</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>180</y>
-      <width>81</width>
-      <height>41</height>
+      <x>40</x>
+      <y>140</y>
+      <width>111</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 85, 255);</string>
+    </property>
     <property name="text">
-     <string>    날씨</string>
+     <string>날씨</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>190</y>
-      <width>81</width>
-      <height>31</height>
+      <x>220</x>
+      <y>140</y>
+      <width>116</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 170, 255);</string>
+    </property>
     <property name="text">
-     <string>    온도</string>
+     <string>온도</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>280</y>
-      <width>161</width>
-      <height>21</height>
+      <x>30</x>
+      <y>220</y>
+      <width>301</width>
+      <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>    어제와의 날씨비교</string>
+     <string>어제와의 날씨비교</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>330</y>
-      <width>64</width>
-      <height>15</height>
+      <x>30</x>
+      <y>280</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(179, 127, 103);</string>
+    </property>
     <property name="text">
-     <string>강수확률</string>
+     <string>체감온도</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>330</y>
-      <width>101</width>
-      <height>16</height>
+      <x>260</x>
+      <y>280</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(179, 127, 103);</string>
     </property>
     <property name="text">
      <string>초미세먼지</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>326</y>
-      <width>91</width>
-      <height>20</height>
+      <x>140</x>
+      <y>280</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(179, 127, 103);</string>
     </property>
     <property name="text">
      <string>미세먼지</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>380</y>
-      <width>64</width>
-      <height>15</height>
+      <x>30</x>
+      <y>330</y>
+      <width>81</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>-</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>380</y>
-      <width>64</width>
-      <height>15</height>
+      <x>140</x>
+      <y>330</y>
+      <width>81</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>-</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>380</y>
-      <width>64</width>
-      <height>15</height>
+      <x>260</x>
+      <y>330</y>
+      <width>81</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>-</string>
     </property>
    </widget>
   </widget>
